@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>The Power of the Subconscious Mind</title>
 
-    <!-- Tailwind CSS (Do not defer) -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Google Fonts -->
@@ -45,15 +45,15 @@
   </head>
 
   <body class="overflow-x-hidden text-white">
-    <!-- Mobile Image (with lazy loading) -->
-    <img src="banner2.png" alt="Mobile Image" class="block lg:hidden w-full" loading="lazy" />
-
+    <img src="banner2.png" alt="Mobile Image" class="block lg:hidden w-full" />
     <!-- Banner Section -->
     <div
       class="banner max-w-7xl mx-auto px-6 md:px-12 lg:px-16 py-12 md:py-20 flex flex-col md:flex-row items-center justify-between gap-8 md:gap-0"
     >
       <div class="md:w-1/2">
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight">
+        <h1
+          class="text-3xl sm:text-4xl md:text-5xl font-extrabold leading-tight"
+        >
           THE POWER OF THE<br />
           <span class="text-[#3a66d9]">SUBCONSCIOUS<br />MIND</span>
         </h1>
@@ -109,8 +109,8 @@
           Find out how the mind hides things and how you can find them. Find out
           how the mind actually works.
         </p>
-        <a href="#form">
-          <button
+        <a href="#form"
+          ><button
             class="mt-6 bg-[#3a66d9] text-white text-xs sm:text-sm font-semibold px-4 py-2 rounded shadow hover:bg-[#2a4dbd] transition-colors flex items-center gap-2"
             type="button"
           >
@@ -128,9 +128,8 @@
                 stroke-linecap="round"
                 stroke-linejoin="round"
               ></path>
-            </svg>
-          </button>
-        </a>
+            </svg></button
+        ></a>
       </div>
       <div class="md:w-1/2 flex justify-center md:justify-end">
         <!-- Optional image or graphic can go here -->
@@ -138,7 +137,9 @@
     </div>
 
     <!-- Lecture Details Section -->
-    <main class="lecture-section max-w-5xl mx-auto px-6 py-16 text-center bg-[#07142e]">
+    <main
+      class="lecture-section max-w-5xl mx-auto px-6 py-16 text-center bg-[#07142e]"
+    >
       <h1 class="font-extrabold text-3xl sm:text-5xl leading-tight">
         THE POWER OF <br />
         THE SUBCONSCIOUS OVER <span class="text-blue-600">YOU</span>
@@ -150,47 +151,48 @@
 
       <ul class="mt-8 max-w-xl mx-auto text-left space-y-3 text-lg sm:text-xl">
         <li class="flex items-cen">
-          <span class="text-blue-600 mt-1 mr-3">
-            <i class="fas fa-play"></i>
-          </span>
+          <span class="text-blue-600 mt-1 mr-3"
+            ><i class="fas fa-play"></i
+          ></span>
           Exactly what is the subconscious mind?
         </li>
         <li class="flex items-start">
-          <span class="text-blue-600 mt-1 mr-3">
-            <i class="fas fa-play"></i>
-          </span>
+          <span class="text-blue-600 mt-1 mr-3"
+            ><i class="fas fa-play"></i
+          ></span>
           How does it inflict unwanted feelings and anxiety in you?
         </li>
         <li class="flex items-start">
-          <span class="text-blue-600 mt-1 mr-3">
-            <i class="fas fa-play"></i>
-          </span>
+          <span class="text-blue-600 mt-1 mr-3"
+            ><i class="fas fa-play"></i
+          ></span>
           What determines how much pressure it exerts on a person?
         </li>
         <li class="flex items-start">
-          <span class="text-blue-600 mt-1 mr-3">
-            <i class="fas fa-play"></i>
-          </span>
+          <span class="text-blue-600 mt-1 mr-3"
+            ><i class="fas fa-play"></i
+          ></span>
           What exactly is the goal of the subconscious?
         </li>
       </ul>
 
       <p class="mt-10 max-w-3xl mx-auto text-base sm:text-lg">
-        This is a process of discovery because it's
+        This is a process of discovery becuase it's
         <span class="font-semibold uppercase">INTERACTIVE AND LIVE</span>, so you can ask questions at any time.
       </p>
 
       <p class="mt-12 text-lg sm:text-xl max-w-3xl mx-auto">
         And the most important topic:<br />
-        <strong class="font-extrabold text-xl sm:text-2xl">
-          How do you take control of your subconscious!
-        </strong>
+        <strong class="font-extrabold text-xl sm:text-2xl"
+          >How do you take control of your subconscious!</strong
+        >
       </p>
     </main>
 
-    <!-- Form Section -->
     <main id="form" class="max-w-3xl mx-auto px-4 py-10">
-      <h1 class="text-4xl font-extrabold text-[#3b7af8] text-center leading-tight">
+      <h1
+        class="text-4xl font-extrabold text-[#3b7af8] text-center leading-tight"
+      >
         Reserve your spot today!
       </h1>
       <p class="text-center font-semibold text-white mt-2 text-lg leading-snug">
@@ -206,8 +208,7 @@
         class="flex justify-center items-center gap-2 mt-3 text-white text-lg font-normal"
       >
         <i class="fas fa-map-marker-alt text-[#3b7af8] text-xl"></i>
-        St. Petersburg Life Improvement Center <br />
-        336 1st Ave N, St. Petersburg, FL 33701
+        St. Petersburg Life Improvement Center <br>336 1st Ave N, St. Petersburg, FL 33701
       </p>
       <form
         id="contactForm"
@@ -253,9 +254,12 @@
             <input type="checkbox" name="accept_policy" class="w-4 h-4" required checked />
             <span>
               By submitting this form, I accept the
-              <a href="https://www.scientology.org/privacy-notice.html" class="text-[#3b7af8] hover:underline" target="_blank">
-                privacy policy
-              </a>.
+              <a
+                href="https://www.scientology.org/privacy-notice.html"
+                class="text-[#3b7af8] hover:underline" target="_blank"
+              >
+                privacy policy</a
+              >.
             </span>
           </label>
           <label class="flex items-start gap-2">
@@ -283,8 +287,6 @@
       </div>
     </footer>
 
-    <!-- Your custom JS (Defer it) -->
-    <script src="your-custom-script.js" defer></script>
     <script>
       document
         .getElementById("contactForm")
